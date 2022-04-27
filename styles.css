@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,500;0,700;0,800;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+body{
+    background-color: #111;
+    display: grid;
+    justify-content: center;
+    font-family: karla;
+}
+
+#wrapper {
+    width: 550px;
+    height: 550px;
+    background: #1F2937;
+    padding:52px;
+    border-radius: 10px;
+}
+h2 {
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: -5px;
+    color: white;
+    font-weight: 800;
+}
+h2 span{
+    color:#10B981;
+}
+#header{margin-top:100px}
+#header p{
+    color:#d5d4d8;
+    font-size: 20px;
+    line-height:28px;
+    font-family: Inter;
+}
+button{
+    background-color: #10B981;
+    border:none;
+    height:45px;
+    width: 225px;
+    border-radius: 5px;
+    color:white;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+}
+button img {
+    height: 18px;
+    top: 3px;
+    position: relative;
+    padding-right: 8px;
+}
+hr {
+    margin: 50px 0;
+    border-color: #2F3E53;
+}
+#options{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:25px;
+}
+#options div{
+    background-color: #273549;;
+    color:#55F991;
+    text-align: center;
+    padding:10px;
+    font-size: 16px;
+    border-radius:5px;
+}
