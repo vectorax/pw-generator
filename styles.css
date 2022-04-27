@@ -57,11 +57,26 @@ hr {
     grid-template-columns: 1fr 1fr;
     gap:25px;
 }
-#options div{
-    background-color: #273549;;
-    color:#55F991;
+#options div {
+    background-color: #273549;
+    color: #55F991;
     text-align: center;
-    padding:10px;
+    padding: 10px;
     font-size: 16px;
-    border-radius:5px;
+    border-radius: 5px;
+    letter-spacing: 2px;
+}
+#lengthOption{
+    color:#d5d4d8;
+    margin-right:10px;
+}
+#lengthOption input{
+    background-color: #1F2937;
+    border: 1px solid #55F991;
+    border-radius: 3px;
+    padding:3px;
+    color:#d5d4d8;
+}
+#lengthOption input:focus{
+    border:none;
 }
